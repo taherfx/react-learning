@@ -19,6 +19,11 @@ import RenderProps from './components/RenderProps';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import ComponentC from './components/context/ComponentC';
 import { UserProvider } from './components/context/UserContext';
+import GetMethod from './components/http/GetMethod';
+import PostMethod from './components/http/PostMethod';
+import HooksCount from './components/hooks/HooksCount';
+import HookUsername from './components/hooks/HookUsername';
+import HookArr from './components/hooks/HookArr';
 
 function App() {
   return (
@@ -56,9 +61,14 @@ function App() {
         {/* <RenderProps render={(count, handleCount) => {
           return <ClickCounterTwo count={count} incrementCount={handleCount} />
         }} /> */}
-        <UserProvider value="taher"> 
+        {/* <UserProvider value="taher"> 
           <ComponentC />
-        </UserProvider>
+        </UserProvider> */}
+        {/* <GetMethod /> */}
+        {/* <PostMethod /> */}
+        {/* <HooksCount /> */}
+        {/* <HookUsername /> */}
+        <HookArr />
       </header>
     </div>
   );
