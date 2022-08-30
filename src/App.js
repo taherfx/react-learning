@@ -24,6 +24,19 @@ import PostMethod from './components/http/PostMethod';
 import HooksCount from './components/hooks/HooksCount';
 import HookUsername from './components/hooks/HookUsername';
 import HookArr from './components/hooks/HookArr';
+import UseEffectEx from './components/hooks/UseEffectEx';
+import MouseHoverUE from './components/hooks/MouseHoverUE';
+import MouseConatiner from './components/hooks/MouseConatiner';
+import IntervalHookCounter from './components/hooks/IntervalHookCounter';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import DataFetching from './components/hooks/DataFetching';
+import ComponentCH from './components/hooks/ComponentC';
+import React from 'react';
+import CounterApp from './components/hooks/CounterApp';
+import CounterApp2 from './components/hooks/CounterApp2';
+
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 
 function App() {
   return (
@@ -68,7 +81,21 @@ function App() {
         {/* <PostMethod /> */}
         {/* <HooksCount /> */}
         {/* <HookUsername /> */}
-        <HookArr />
+        {/* <HookArr /> */}
+        {/* <UseEffectEx /> */}
+        {/* <MouseHoverUE /> */}
+        {/* <MouseConatiner /> */}
+        {/* <IntervalClassCounter />
+        <p>-------</p>
+        <IntervalHookCounter /> */}
+        {/* <DataFetching /> */}
+        {/* <UserContext.Provider value="test">
+			<ChannelContext.Provider value="channel">
+          		<ComponentCH />
+			</ChannelContext.Provider>
+        </UserContext.Provider> */}
+		{/* <CounterApp /> */}
+		<CounterApp2 />
       </header>
     </div>
   );
