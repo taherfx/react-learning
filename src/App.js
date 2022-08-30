@@ -34,6 +34,12 @@ import ComponentCH from './components/hooks/ComponentC';
 import React from 'react';
 import CounterApp from './components/hooks/CounterApp';
 import CounterApp2 from './components/hooks/CounterApp2';
+import CounterApp3 from './components/hooks/CounterApp3';
+import CountReduceContext from './components/hooks/CountReduceContext';
+import ComponentReduceGet from './components/hooks/ComponentReduceGet';
+import ComponentRef from './components/hooks/ComponentRef';
+import HookTimer from './components/hooks/HookTimer';
+import DocTitle from './components/hooks/customHook/DocTitle';
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -95,7 +101,13 @@ function App() {
 			</ChannelContext.Provider>
         </UserContext.Provider> */}
 		{/* <CounterApp /> */}
-		<CounterApp2 />
+		{/* <CounterApp2 /> */}
+		{/* <CounterApp3 /> */}
+		{/* <CountReduceContext /> */}
+		{/* <ComponentReduceGet />
+		<ComponentRef /> */}
+		{/* <HookTimer /> */}
+		<DocTitle />
       </header>
     </div>
   );
